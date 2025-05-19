@@ -9,5 +9,10 @@ public class TernaryOperatoreg {
         String CanIGoToThailand = age>18? (age>25 ? "You can drink in Thailand ":"You cant drink in thailand") : "No you cant";
         System.out.println(CanIGoToThailand);
 
+        String cmd1= args[0];
+        int age1= Integer.parseInt(cmd1);
+        System.out.println(age1);
+
+
     }
 }
